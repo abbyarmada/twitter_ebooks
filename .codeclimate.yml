@@ -1,0 +1,26 @@
+engines:
+ duplication:
+   enabled: true
+   config:
+     languages:
+     - ruby
+     - javascript
+     - python
+     - php
+ reek:
+   enabled: true
+ fixme:
+   enabled: true
+ rubocop:
+   enabled: true
+atings:
+ paths:
+ - "**.inc"
+ - "**.js"
+ - "**.jsx"
+ - "**.module"
+ - "**.php"
+ - "**.py"
+ - "**.rb"
+exclude_paths:
+- spec/
