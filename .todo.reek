@@ -3,3 +3,4 @@ TooManyStatements:
   exclude:
   - Ebooks::Archive#make_client
   - Ebooks::Archive#sync_to
+  - Ebooks::Archive#initialize
